@@ -1,0 +1,59 @@
+erDiagram
+User {
+int id PK
+string name
+string email
+string password
+}
+Resume {
+int id PK
+int user_id FK
+string experience
+string education
+string skills
+}
+Hobby {
+int id PK
+int user_id FK
+string type
+string description
+}
+Project {
+int id PK
+int user_id FK
+string name
+string description
+string url
+}
+SocialMedia {
+int id PK
+int user_id FK
+string type
+string url
+}
+Video {
+int id PK
+int user_id FK
+string platform
+string url
+}
+Book {
+int id PK
+int user_id FK
+string title
+string author
+}
+Collectible {
+int id PK
+int user_id FK
+string type
+string description
+}
+
+    User ||--o{ Resume: has
+    User ||--o{ Hobby: enjoys
+    User ||--o{ Project: works_on
+    User ||--o{ SocialMedia: uses
+    User ||--o{ Video: uploads
+    User ||--o{ Book: reads
+    User ||--o{ Collectible: collects
