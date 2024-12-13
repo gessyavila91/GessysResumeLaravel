@@ -4,6 +4,8 @@ This document contains both the ERD and the Data Dictionary for the application.
 
 ## Data Dictionary
 
+TODO: add new entity "Achievements" for "user Goals"
+
 | Entity Name          | Attributes                                             | Description                                                   |
 |----------------------|--------------------------------------------------------|---------------------------------------------------------------|
 | User                 | id, first_name, last_name, email, password, phone_number, address, city, state, country, postal_code, profile_image | Basic user information with contact details and profile image |

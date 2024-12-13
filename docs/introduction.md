@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to the Application! This document provides an overview of the application, including its purpose, features, and target audience.
+Welcome to the GessyResumeWebApp! This document provides an overview of the application, including its purpose, features, and target audience.
 
 ## Purpose
 
@@ -67,7 +67,3 @@ The application is designed for professionals, students, and hobbyists who want 
 This application aims to simplify the process of managing and presenting personal and professional information. By providing a comprehensive and user-friendly platform, it empowers individuals to create a strong digital presence and showcase their achievements effectively.
 
 Welcome aboard, and let's get started on building your profile! 🚀📄
-
----
-
-Let me know if you need any further details or adjustments! 🌟📄
